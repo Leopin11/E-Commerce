@@ -1,7 +1,17 @@
 package domain.ecommerce;
 
+import java.util.Date;
+
 public class Customer extends User{
     //NO HAY ATRIBUTOS PROPIOS. SE HEREDA TODO_.
+
+    //CONSTRUCTOR
+
+
+    public Customer(Integer id, String name, String phone, String email, String password, String address, Date registrationDate, int age) {
+        super(id, name, phone, email, password, address, registrationDate, age);
+    }
+
 
 
     //MÉTODOS (CRUD):
